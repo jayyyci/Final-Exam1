@@ -16,7 +16,7 @@ h1 {
     float: right;
     text-align: center;
     font-size: 16px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 p{
@@ -32,7 +32,7 @@ p{
         background-color: #ff6347;
         margin-bottom: 10px;
         float: left;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 10px;
     }
 }
@@ -46,7 +46,7 @@ p{
         background-color: #ff6347;
         margin-bottom: 10px;
         float: left;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 10px;
     }
     .main-container .description2{
@@ -56,17 +56,17 @@ p{
         background-color: #ff6347;
         margin-bottom: 10px;
         float: left;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 10px;
     }
     .main-container .description3{
-        width: 46%;
-        height: auto;
+        width: 100px;
+        height: 10px;
         margin-left: 20px;
         background-color: #ff6347;
         margin-bottom: 10px;
         float: left;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 10px;
     }
     
@@ -79,7 +79,7 @@ p{
         background-color: #ff6347;
         margin-bottom: 10px;
         float: left;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 10px;
     }
 }
