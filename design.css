@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+}
+
+h1 {
+    padding:20px;
+    text-align: center;
+}
+
+#header {
+    width:100px;
+    background-color: aqua;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+p{
+    padding: 50px;
+}
+
+/*DESKTOP*/
+@media(min-width:992px) {
+    .main-container{
+        width:30%;
+        height: auto;
+        margin-left: 20px;
+        background-color: #ff6347;
+        margin-bottom: 10px;
+        float: left;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+}
+
+/*TABLET*/
+@media(min-width:768px) and (max-width:991px) {
+    .main-container .description1{
+        width: 46%;
+        height: auto;
+        margin-left: 20px;
+        background-color: #ff6347;
+        margin-bottom: 10px;
+        float: left;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .main-container .description2{
+        width: 46%;
+        height: auto;
+        margin-left: 20px;
+        background-color: #ff6347;
+        margin-bottom: 10px;
+        float: left;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .main-container .description3{
+        width: 46%;
+        height: auto;
+        margin-left: 20px;
+        background-color: #ff6347;
+        margin-bottom: 10px;
+        float: left;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+/*MOBILE*/
+@media(min-width:767px) {
+    .main-container {
+        width: 90%;
+        height: auto;
+        margin-left: 20px;
+        background-color: #ff6347;
+        margin-bottom: 10px;
+        float: left;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+}
+}
